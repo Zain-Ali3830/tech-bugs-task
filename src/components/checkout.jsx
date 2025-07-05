@@ -79,7 +79,7 @@ function CheckOut() {
           <input
             type="text"
             placeholder="Add Promo Code"
-            className="border-2 border-gray-400 rounded-full px-5 py-2 "
+            className="border-2 border-gray-400 rounded-full px-5 py-2 text-center "
           />
           <button className="bg-yellow-400 border-2 border-yellow-400 rounded-full text-white px-4 py-2  ">
             Apply

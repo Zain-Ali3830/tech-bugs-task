@@ -24,22 +24,22 @@ export default function Sidebar() {
     <>
     <button
       onClick={toggleSidebar}
-      className={`absolute top-6 left-6 z-[9999] md:hidden p-2 text-gray-900 focus:outline-none hover:text-yellow-400 transition-colors duration-200 ${
+      className={`absolute top-6 left-6 z-[9999] sm:hidden p-2 text-gray-900 focus:outline-none hover:text-yellow-400 transition-colors duration-200 ${
         isOpen ? 'hidden' : 'block'
       }`}
     >
       <HiMenu className="w-7 h-7" />
     </button>
-      <nav className={`bg-gray-900 shadow-md border-r border-gray-200 h-screen fixed top-0 left-0 min-w-[250px] py-2 px-4 overflow-auto z-50 transition-transform duration-300
-  ${isOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0 md:block`}>
+      <nav className={`bg-gray-900 shadow-md border-r border-gray-200 h-screen fixed top-0 left-0 w-[260px] py-2 px-4 overflow-auto z-50 transition-transform duration-300
+  ${isOpen ? "translate-x-0" : "-translate-x-full"} sm:translate-x-0 sm:block lg:w-[320px]`}>
 
         <div className="relative flex flex-col h-full">
-          <div className="flex  gap-2 text-white text-xl  w-full rounded-md px-2 py-1 mb-3">
-            <FaDog className="text-yellow-500" />
+          <div className="flex  gap-2 text-white text-xl  w-full rounded-md px-2 py-2 mb-3">
+            <FaDog className="text-yellow-500 h-7 w-7" />
             <h1>Pet DNA</h1>
             <button
               onClick={toggleSidebar}
-              className="md:hidden ml-auto text-white hover:text-yellow-400 transition-colors duration-200 text-right"
+              className="sm:hidden ml-auto text-white hover:text-yellow-400 transition-colors duration-200 text-right"
             >
               <IoClose className="w-6 h-6" />
             </button>
@@ -125,13 +125,11 @@ export default function Sidebar() {
                 </div>
               </li>
             </ul>
-          </div>
-
-          <div className="mt-4">
+             <div className="mt-4">
             <hr className="my-4 border-gray-200" />
           </div>
 
-          <div className="bg-gray-800 max-w-full flex flex-col items-center gap-3 rounded-lg p-5 mb:20 md:mb-48">
+          <div className="bg-gray-800 max-w-full flex flex-col mt-10 items-center gap-3 rounded-lg p-5 mb:20 md:mb-48">
             <h3 className="text-white text-center">
               Meet Buddy . Your Pet <br />
               <span className="text-center">Care Guide</span>
@@ -143,6 +141,7 @@ export default function Sidebar() {
             <button className="bg-yellow-400 text-white pl-2 pr-2 rounded-lg text-[#205295] border-2 border-yellow-400 hover:bg-transparent hover:text-yellow-400 transition-colors duration-300">
               Ask Buddy Now
             </button>
+          </div>
           </div>
         </div>
       </nav>
