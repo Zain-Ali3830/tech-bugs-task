@@ -68,24 +68,24 @@ function CheckOut() {
           <h4>Shipping</h4>
           <h5 className="p-0">$0</h5>
         </div>
-        <div className="mt-2 flex items-center justify-center">
+        <div className="flex items-center justify-center">
           <hr className="my-2 w-[85%] border-t-3 rounded-full border-gray-700" />
         </div>
-        <div className="flex justify-between items-center mt-1  w-full px-10  text-gray-600">
+        <div className="flex justify-between items-center   w-full px-10  text-gray-600">
           <h4>Total</h4>
           <h5 className="p-0">$516</h5>
         </div>
-        <div className="flex flex-wrap justify-center justify-center items-center gap-4  mt-4 p-4    ">
+        <div className="flex flex-wrap md:flex-nowrap justify-center justify-center items-center gap-1 p-4    ">
           <input
             type="text"
             placeholder="Add Promo Code"
-            className="border-2 border-gray-400 rounded-full px-5 py-2 text-center "
+            className="border-2 border-gray-400 rounded-full px-3 py-2 text-center "
           />
           <button className="bg-yellow-400 border-2 border-yellow-400 rounded-full text-white px-4 py-2  ">
             Apply
           </button>
         </div>
-        <button className="bg-yellow-400 border-2 border-yellow-400 rounded-full text-white mt-2 px-4 py-2  ">Proceed to Checkout</button>
+        <button className="bg-yellow-400 border-2 border-yellow-400 rounded-full text-white px-4 py-2  ">Proceed to Checkout</button>
 
         {/* </div> */}
       </div>
