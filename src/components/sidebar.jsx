@@ -1,4 +1,3 @@
-
 import { FiSettings, FiHome } from "react-icons/fi";
 import { FaPlus } from "react-icons/fa";
 import { FaDog } from 'react-icons/fa';
@@ -33,8 +32,8 @@ export default function Sidebar() {
       <nav className={`bg-gray-900 shadow-md border-r border-gray-200 h-screen fixed top-0 left-0 w-[260px] py-2 px-4 overflow-auto z-50 transition-transform duration-300
   ${isOpen ? "translate-x-0" : "-translate-x-full"} sm:translate-x-0 sm:block lg:w-[320px]`}>
 
-        <div className="relative flex flex-col h-full">
-          <div className="flex  gap-2 text-white text-xl  w-full rounded-md px-2 py-2 mb-3">
+        <div className="flex flex-col">
+          <div className="flex  gap-2 text-white text-xl  w-full rounded-md px-2 py-2 ">
             <FaDog className="text-yellow-500 h-7 w-7" />
             <h1>Pet DNA</h1>
             <button
@@ -129,7 +128,7 @@ export default function Sidebar() {
             <hr className="my-4 border-gray-200" />
           </div>
 
-          <div className="bg-gray-800 max-w-full flex flex-col mt-10 items-center gap-3 rounded-lg p-5 mb:20 md:mb-48">
+          <div className="bg-gray-800 max-w-full flex flex-col mb-5 items-center gap-3 rounded-lg p-5">
             <h3 className="text-white text-center">
               Meet Buddy . Your Pet <br />
               <span className="text-center">Care Guide</span>
