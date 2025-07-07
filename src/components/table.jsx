@@ -2,7 +2,7 @@ function Table(){
     return(
         <>
 
-       <div className="p-5 flex flex-col justify-start items-start border-2 border-gray-300 rounded-md shadow-lg  bg-gray-300 w-full overflow-x-auto ">
+       <div className="p-5 flex flex-col justify-start items-start rounded-md bg-white border-2 border-gray-100 shadow-lg w-full overflow-x-auto ">
          <h1 className="font-semibold text-lg text-left w-full">Recent Orders</h1>
         <p className="text-gray-600 mb-2">View your completed and in-progress orders with detail status updates</p>
         <table className="min-w-full">

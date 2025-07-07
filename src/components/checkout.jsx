@@ -2,13 +2,15 @@ import { FaTrash } from "react-icons/fa";
 function CheckOut() { 
   return (
     <>
-      <div className="w-full h-fit max-w-[400px] flex flex-col justify-center p-4 bg-gray-300  rounded-md shadow-lg ">
+      <div className="w-full h-fit max-w-[400px] flex flex-col justify-center p-4 bg-white border-2 border-gray-100 rounded-md shadow-lg ">
         <div className="flex justify-start w-full px-8">
           <h2 className="font-semibold text-lg text-start  w-full">Checkout</h2>
         </div>
         {/* {Section 1} */}
         <div className="flex justify-center items-center rounded-md  gap-4 p-4">
-          <div className="bg-gray-400 rounded-md w-[50px] h-[50px]"></div>
+          <div className="bg-gray-400 rounded-md w-[50px] h-[50px]">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-QS23MfrAJctLmQmfTuzzRvkERHqeWiFQOg&s" alt="dog care"/>
+          </div>
           <div className="flex flex-col justify-between">
             <div className="flex justify-between items-center gap-10">
               <h4 className="font-semibold">Lorem Ipsum Title</h4>
@@ -27,13 +29,15 @@ function CheckOut() {
         </div>
 
         <div className="mt-2 flex items-center justify-center">
-          <hr className="my-2 w-[85%] border-t-3 rounded-full border-gray-700" />
+          <hr className="my-2 w-[85%] border-t-3 rounded-full border-gray-500" />
         </div>
 
         {/* {Section 2} */}
 
         <div className="flex justify-center items-center rounded-md  gap-4 p-4">
-          <div className="bg-gray-400 rounded-md w-[50px] h-[50px]"></div>
+          <div className="bg-gray-400 rounded-md w-[50px] h-[50px]">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEzuF_SmoiH_JSp8nFHlGiuXPM9YoWaH4sgQ&s" alt="dog care" />
+          </div>
           <div className="flex flex-col justify-between">
             <div className="flex justify-between items-center gap-10">
               <h4 className="font-semibold">Lorem Ipsum Title</h4>
@@ -51,7 +55,7 @@ function CheckOut() {
           </div>
         </div>
         <div className="mt-2 flex items-center justify-center">
-          <hr className="my-2 w-[85%] border-t-3 rounded-full border-gray-700" />
+          <hr className="my-2 w-[85%] border-t-3 rounded-full border-gray-500" />
         </div>
 
         {/* {Section 3} */}
@@ -69,7 +73,7 @@ function CheckOut() {
           <h5 className="p-0">$0</h5>
         </div>
         <div className="flex items-center justify-center">
-          <hr className="my-2 w-[85%] border-t-3 rounded-full border-gray-700" />
+          <hr className="my-2 w-[85%] border-t-3 rounded-full border-gray-500" />
         </div>
         <div className="flex justify-between items-center   w-full px-10  text-gray-600">
           <h4>Total</h4>

@@ -15,8 +15,10 @@
     };
     return (
       <>
-        <div className="flex flex-wrap md:flex-nowrap justify-center bg-gray-300 md:justify-evenly items-center h-fit p-4 rounded-md shadow-lg   gap-4 border-2 border-gray-300 w-full">
-          <div className="bg-gray-400 rounded-md w-[300px] h-[200px]"></div>
+        <div className="flex flex-wrap md:flex-nowrap lg:flex-wrap justify-center items-center xl:flex-nowrap justify-center bg-white border-2 border-gray-100 md: items-center h-fit p-4 rounded-md shadow-lg   gap-4  w-full">
+          <div className="flex justify-center items-center rounded-md p-16 md:p-0 w-[300px] h-[200px]">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFDMMZXOTk9sTAghORbzp1livAtFh-mNIA_A&s" alt=" " />
+          </div>
 
           <div className="flex flex-col justify-between p-4 gap-6">
             <div className="flex items-center gap-4">
