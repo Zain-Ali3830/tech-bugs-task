@@ -75,7 +75,7 @@ function CheckOut() {
           <h4>Total</h4>
           <h5 className="p-0">$516</h5>
         </div>
-        <div className="flex flex-wrap md:flex-nowrap justify-center justify-center items-center gap-1 p-4    ">
+        <div className="flex flex-wrap md:flex-nowrap lg:flex-wrap xl:flex-nowrap justify-center justify-center items-center gap-1 p-4    ">
           <input
             type="text"
             placeholder="Add Promo Code"
